@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(160, 214, 241);
+}
+.fitems{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: aqua;
+    border-width: 10px;
+    border-style: double;
+}
+.fcontainer{
+    display: flex;
+    flex-direction:row-reverse;
+    height: 200px;
+    justify-content: center;
+}
+.item2 {
+    order: 2;
+
+}
