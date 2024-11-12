@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Switcher</title>
+</head>
+<body>
+
+    <a id="websiteLink" href="https://www.abes.ac.in" target="_blank">Visit ABES</a>
+    <button id="changeLinkButton">Change Link</button>
+
+    <script>
+        document.querySelector("#changeLinkButton").addEventListener("click", () => {
+            const linkElement = document.querySelector("#websiteLink");
+            linkElement.setAttribute("href", "https://aktu.ac.in/");
+            linkElement.textContent = "Visit AKTU";
+        });
+    </script>
+
+</body>
+</html>

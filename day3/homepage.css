@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#mydiv
+{
+  display: flex;
+  flex-direction: column;
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    background-color: antiquewhite;
+}
+.fitems
+{
+    background-color: aquamarine;
+    border: 2px solid rgb(51, 136, 234);
+    padding: 40px;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: row;
+}
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.item3{
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+.item4{
+    
+        grid-row-start: 3;
+        grid-row-end: 7;
+    
+}
+.item5{
+    grid-row-start: 3;
+        grid-row-end: 7;
+}
+.item6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+#item1{
+    display: flex;
+    flex-direction: column;
+}
+
